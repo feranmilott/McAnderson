@@ -4,17 +4,16 @@ import  './Style.css'
 
 
 const Header = () => {
-    const mobile=useRef()
-    const toggle=()=>{
+    // const mobile=useRef()
+    // const toggle=()=>{
         
-    }
+    // }
   return (
     <div>
         <div className='header'>
             <div className='logo'>
                 <img src={logo} alt="" />
             </div>
-           <div>
             <nav>
                 <a href="#">Why McAnderson?</a>
                 <a href="#">Learning Paths</a>
@@ -22,13 +21,11 @@ const Header = () => {
                 <a href="#">FAQ</a>
             </nav>
             <nav>
-                <a href="#">Coming Soon</a>
-               
+                <a href="#">Coming Soon</a> 
             </nav> 
-           </div>
-            <div className='ham' onClick={toggle}>
+            {/* <div className='ham' >
                     <i class="fa-solid fa-bars"></i>  
-                </div>
+                </div> */}
         </div>
     </div>
   )

@@ -2,10 +2,11 @@
     margin: 0;
 }
 .header{
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     /* background-color: red; */
 }
@@ -13,7 +14,6 @@ nav a{
     padding: 24px ;
     text-decoration: none;
     color: black;
-
 }
 .logo img{
     width: 150px;
@@ -364,67 +364,3 @@ form button{
         display: block;
     } */
 }
-/* .general{
-    display: flex;
-    background-color: red;
-    /* justify-content: space-between; */
-    /* gap: 70px; */
-    /* flex-wrap: wrap; 
-}
-.content2 img{
-    width: 250px;
-    align-items: center;
-} */
-/* .content1{
-    width: 30%;
-}
-.content2{
-    width: 30%;
-}
-.content3{
-    width: 30%;
-} */
-/* .wrap{
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-} */
-/* .item1{
-    width: 50%;
-}
-.item1 h2{
-    /* width: 70%; 
-   font-size:55px;
-   color: #ffffff;
-}
-.item1 p{
-    color: #ffffff;
-}
-.item2 {
-    width: 30%;
-    margin: 0 auto;
-   /* background-color: #ffffff; *
-}
-form{
-    background-color: #ffffff;
-    border-radius: 20px;
-    padding: 20px;
-    /* width: 50%; 
-}
-.item2 h2{
-    font-size: 20px;
-    width: 100%;
-}
-form input{
-    width: 100%;
-    margin: 8px;
-    padding:6px ;
-    border-radius: 5px;
-}
-form button{
-    width: 100%;
-    background-color: #078586;
-    padding: 6px;
-    color: #ffffff;
-    border-radius: 5px;
-} */
