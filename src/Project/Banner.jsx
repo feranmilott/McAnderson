@@ -3,7 +3,7 @@ import  './Style.css'
 
 const Banner = () => {
   return (
-    <div>
+    <div className='wrapper'>
         <div className="banner">
            <div className='wrap'>
                 <div className='item1'>
