@@ -13,7 +13,7 @@ const Logo = () => {
         <h2>Some of our Partners</h2>
         <div className='images'>
                 <img src={git} alt="" />
-                {/* <img src={cool} alt="" /> */}
+                 {/* <img src={cool} alt="" />  */}
                 <img src={copy} alt="" />
                 <img src={google} alt="" />
                 <img src={micro} alt="" />

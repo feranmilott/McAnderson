@@ -2,15 +2,14 @@
     margin: 0;
 }
 .header{
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
-    /* background-color: red; */
 }
-nav a{
+
+.down a{
     padding: 24px ;
     text-decoration: none;
     color: black;
@@ -43,14 +42,13 @@ nav a{
     color: #ffffff;
 }
 .item2{
-    /* padding: 30px 0px; */
+     padding: 30px 0px; 
     width: 40%;
 }
 form{
     background-color: #ffffff;
     padding: 30px 15px; 
-    border-radius: 10px;
-    /* width: %; */
+    border-radius: 10px; 
 }
 form input{
     width: 100%;
@@ -69,8 +67,8 @@ form button{
     outline: none;
     border: 1px solid black;
 }
-.item2 h2{
-    font-size: 18px;
+form h2{
+    font-size: 20px;
 }
 .both{
     background-color: #f5fefe;
@@ -86,19 +84,6 @@ form button{
 
 }
 .images{
-    text-align: center;
-}
-/* .images img{
-    width: 12%;
-    margin: 0px 10px;
-    height: 0%;
-    padding: 30px;
-}
-.images{
-    width: 85%;
-    margin: 0 auto;
-} */
-.item3{
     text-align: center;
 }
 .all{
@@ -120,7 +105,7 @@ form button{
     width: 30%;
     height:40vh;
     border-radius: 8px;
-    /* text-align: end; */
+
 }
 .all div{
     display: flex;
@@ -181,6 +166,9 @@ form button{
     line-height: 6px;
 
 }
+.item3{
+    text-align: center;
+}
 .content2 img {
     width: 250px;
 }
@@ -195,13 +183,18 @@ form button{
 }
 .hance h3{
     color: #ffffff;
-    /* margin-left:-29% ; */
+  
     text-align: center;
 }
 .hance p{
     color: #ffffff;
     text-align: center;
 }
+.hance{
+    width: 90%;
+    margin: 0 auto;
+}
+
 .general p{
     color: #ffffff;
     font-size: 14px;
@@ -209,6 +202,7 @@ form button{
 .general{
     display: flex;
     justify-content: space-between;
+    margin: 9% 0px;
 }
 .feature{
     background-color:  #078586;
@@ -223,20 +217,55 @@ form button{
     display: flex;
     flex-direction: column;
     gap: 4em;
+    width: 30%;
 }
 .faq{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* gap: 10px; */
-    border: 1px solid black;
-}
-
-.every{
-    width: 50% ;
+    width: 50%;
     margin: 0 auto;
 }
- .footer{
+.faq1{
+    text-align: center;
+    margin: 50px;
+}
+.faq1 button{
+    color: #089FA0;
+    background-color: #E7FEFE;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+.faq2{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.faq2 a{
+    text-decoration: none;
+}
+.faq3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.faqs{
+    text-align: center;
+    width: 100%;
+    margin: 3% auto;
+    padding: 40px 70px;
+    background-color: #F7F7F4;
+    border-radius: 20px;
+}
+.faqs button{
+    padding:15px ;
+    margin: 5px 0;
+    background-color: #078586;
+    border: 0;
+    border-radius: 10px;
+}
+.footer{
     background-color:  #078586;
 }
  .footer img{
@@ -245,7 +274,7 @@ form button{
  
 .footer small{
     color: #ffffff;
-    font-size: 14px;
+    font-size: 20px;
 }
 .first{
     text-align: center;
@@ -271,52 +300,46 @@ form button{
 .ham{
     display: none;
 }
-.faq1{
-    text-align: center;
-}
-.faq2{
-    width: 50%;
-    margin: 0 auto;
-
-}
-.faq{
-    margin: 10px;
-    padding: 5px 10px;
-    border-radius: 5px; 
-}
-.faq3{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.faqs{
-    text-align: center;
-    width: 50%;
-    margin: 3% auto;
-    padding: 40px 70px;
-    background-color: #F7F7F4;
-    border-radius: 20px;
-}
-.faqs button{
-    padding:15px ;
-    margin: 5px 0;
-    background-color: #078586;
-    border: none;
-    border-radius: 10px;
-}
-.drop{
-    display: none;
-}
-@media (max-width :1000px) {
-    nav{
+@media (max-width :760px){
+    .down{
         display: none;
+        position: absolute;
+        top: 60px; 
+        right: 0;
+        width: 70%;
+        height: 100vh;
+        background-color:#faf9e9;
+        padding: 10px;
+        border-radius: 5px;
     }
-    div.ham {
+    .down a{
+        display: block;
+        padding: 10px;
+    }
+    .down.drop{
         display: block;
     }
+    
+    .wrap{
+        display: block;
+        padding: 50px 0px;
+    }
+    .item2{
+        width: 100%;
+    }
+    .item1{
+        text-align: center;
+    }
+   
+    .item1 h2{
+        font-size: 30px;
+        width: 100%;
+    }
     .images img{
-        width: 9%;
-        margin: 0 30px;
+        width: 17%;
+    }
+    .both{
+        padding: 30px 0px;
     }
     .all{
         display: block;
@@ -324,43 +347,116 @@ form button{
     .one,.two,.three,.four,.five,.six{
         width: 100%;
     }
-    .wrap{
-        display: block;
-        padding: 50px 0px;
-    }
-    .item1{
-        text-align: center;
-    }
-    .item2{
-        width: 100%;
-    }
-    .item1 h2{
-        font-size: 30px;
-    }
-    .item3 p{
-        display: none;
-    }
     .general{
         display: grid;
-        grid-template-columns: 1fr;
-        gap: 10px;
-        text-align: center;
+         grid-template-columns: 1fr;
+
     }
     .content1{
         display: flex;
         flex-direction: column;
         gap: 2em;
-    }
-    .enhance{
         width: 100%;
     }
     .content2 img{
-        width: 300px;
+        width: 350px;
     }
-    .item1 h2{
+    .content2{
+        text-align: center;
+    }
+    .faq{
+      width: 100%;
+    }
+    .faqs h2{
+        font-size: 18px;
+    }
+    .faqs{
+        padding: 20px 0px;
+    }
+    .footer img{
+        width: 240px;
+    } 
+    .footer small{
+        font-size: 14px; 
+    }
+   .second small:first-of-type{
+    width: 70%;
+   }
+    .third{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+    .ham{
+        display: block;
+        margin:0px 15px;
+    }
+ 
+}
+@media (max-width :1000px){
+    .header{
         width: 100%;
     }
-    /* .mobile{
+    .down a{
+        padding: 10px;
+    }
+    .wrap{
         display: block;
-    } */
+        padding: 50px 0px;
+    }
+    .item2{
+        width: 100%;
+    }
+    .item1{
+        text-align: center;
+    }
+    .item1 h2{
+        font-size: 30px;
+        width: 100%;
+    }
+    .item3 p{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .all{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+       justify-content: center; 
+    }
+    .one,.two,.three,.four,.five,.six{
+        width: 80%;
+    }
+    .general{
+        display: grid;
+         grid-template-columns: 1fr;
+
+    }
+    .content1{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        width: 100%;
+    }
+    .content2 img{
+        width: 350px;
+    }
+    .content2{
+        text-align: center;
+    }
+    .faq{
+        width: 95%;
+    }
+    .footer img{
+        width: 240px;
+    } 
+    .footer small{
+        font-size: 15px; 
+    }
+    .second{
+        align-items: center;
+    }
+    
+
+
 }

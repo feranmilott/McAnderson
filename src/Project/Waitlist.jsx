@@ -8,7 +8,7 @@ const Waitlist = () => {
             <div className='item3'>
                 <small>Why Join Our Waitlist?</small>
                 <h2>Get Ready to Revolutionize Your Learning Journey!</h2>
-                <p>Explore our curated selection of featured courses and programs designed to ignite your passion for learning and propel you  <br /> towards success. From cutting-edge technology to timeless artistry, we have something for every learner. Dive in and discover <br /> your next big breakthrough today!</p>
+                <p>Explore our curated selection of featured courses and programs designed to ignite your passion for learning and propel you  towards success. From cutting-edge technology to timeless artistry, we have something for every learner. Dive in and discover your next big breakthrough today!</p>
                 
             </div>
             <div  className='all'>

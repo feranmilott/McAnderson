@@ -28,120 +28,123 @@ const Faq = () => {
   }
   
   return (
-    <div>
+    <div className='faq'>
       <div className='faq1'>
           <button>Tagline Here</button>
           <h2>Frequently asked Question</h2>
         </div>
-      <div className='faq2'>
-        <div className='faq' onClick={toggle}>
-          
-            <div >
-              <div className='faq3'>
-                <h5>Can I take a course for free</h5>
-                <i class="fa-solid fa-angle-down"></i>
-              </div>
-              
-            <div>
-              {
-                drop &&(
+        <div className='faq2'>
+          <div className="faq3" onClick={toggle}>
+            <h5>Can I take a course for free</h5>
+            {
+              drop?<i class="fa-solid fa-minus"></i>:<i class="fa-solid fa-angle-down"></i>
+            }
+          </div>
+          <div>
+            {
+              drop &&(
                 <div>
                   <p>See the most common asked questions and their answers</p>
                   <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                )
-              }   
-            </div>
+              )
+            }
           </div>
         </div>
-        <div className='faq' onClick={toggle1}>
-          <div className='faq3'>
+        <div className='faq2'>
+          <div className="faq3" onClick={toggle1}>
             <h5>Will I take an assessment to start?</h5>
-            <i class="fa-solid fa-angle-down"></i>
+            {
+              drop1?<i class="fa-solid fa-minus"></i>:<i class="fa-solid fa-angle-down"></i>
+            }
           </div>
           <div>
-              {
-                drop1 &&(
+            {
+              drop1 &&(
                 <div>
                   <p>See the most common asked questions and their answers</p>
                   <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                )
-              }   
-            </div>
-        </div>
-        <div className='faq' onClick={toggle2}>
-          <div className='faq3'>
+              )
+            }
+          </div>
+        </div><div className='faq2'>
+          <div className="faq3" onClick={toggle2}>
             <h5>How do I process Refunds?</h5>
-            <i class="fa-solid fa-angle-down"></i>
+            {
+              drop2?<i class="fa-solid fa-minus"></i>:<i class="fa-solid fa-angle-down"></i>
+            }
           </div>
           <div>
-              {
-                drop2 &&(
+            {
+              drop2 &&(
                 <div>
                   <p>See the most common asked questions and their answers</p>
                   <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                )
-              }   
-            </div>
-        </div>
-        <div className='faq' onClick={toggle3}>
-          <div className='faq3' >
+              )
+            }
+          </div>
+        </div><div className='faq2'>
+          <div className="faq3" onClick={toggle3}>
+            <h5>Can I take a course for free</h5>
+            {
+              drop3?<i class="fa-solid fa-minus"></i>:<i class="fa-solid fa-angle-down"></i>
+            }
+          </div>
+          <div>
+            {
+              drop3 &&(
+                <div>
+                  <p>See the most common asked questions and their answers</p>
+                  <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              )
+            }
+          </div>
+        </div><div className='faq2'>
+          <div className="faq3" onClick={toggle4}>
             <h5>How to pay the tuition fee?</h5>
-            <i class="fa-solid fa-angle-down"></i>
+            {
+              drop4?<i class="fa-solid fa-minus"></i>:<i class="fa-solid fa-angle-down"></i>
+            }
           </div>
           <div>
-              {
-                drop3 &&(
+            {
+              drop4 &&(
                 <div>
                   <p>See the most common asked questions and their answers</p>
                   <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                )
-              }   
-            </div>
-        </div>
-        <div className='faq' onClick={toggle4}>
-          <div className='faq3'>
-            <h5>Is the programs beginner-friendly?</h5>
-            <i class="fa-solid fa-angle-down"></i>
+              )
+            }
           </div>
-          <div>
-              {
-                drop4 &&(
-                <div>
-                  <p>See the most common asked questions and their answers</p>
-                  <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-                )
-              }   
-            </div>
-        </div>
-        <div className='faq' onClick={toggle5}>
-          <div className='faq3'>
+        </div><div className='faq2'>
+          <div className="faq3" onClick={toggle5}>
             <h5>Can I transfer to another program after applying for one?</h5>
-            <i class="fa-solid fa-angle-down"></i>
+            {
+              drop5?<i class="fa-solid fa-minus"></i>:<i class="fa-solid fa-angle-down"></i>
+            }
+            
           </div>
           <div>
-              {
-                drop5 &&(
+            {
+              drop5 &&(
                 <div>
                   <p>See the most common asked questions and their answers</p>
                   <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                )
-              }   
-            </div>
+              )
+            }
+          </div>
         </div>
-
-      </div>
-      <div className='faqs'>
+        <div className='faqs'>
           <h2>Still have questions?</h2>
           <small>If you couldn’t see your question, get in contact with us now to get your answer</small>
-          <button>Contact Us</button>
+          <div><button>Contact Us</button></div>
         </div>
     </div>
+    
 
     
   )
