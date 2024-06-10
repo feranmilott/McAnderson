@@ -40,34 +40,37 @@
 }
 .item1 p{
     color: #ffffff;
+    width: 50%;
 }
 .item2{
      padding: 30px 0px; 
     width: 40%;
 }
-form{
+.form{
     background-color: #ffffff;
     padding: 30px 15px; 
     border-radius: 10px; 
 }
-form input{
+.form input{
     width: 100%;
     margin: 12px 0px;
     padding: 7px;
     border-radius: 5px;
     outline: none;
-    border: 1px solid black;
+    border: 0;
+    box-shadow:-1px -1px 3px 3px #e4e3e3;
 }
-form button{
+.form button{
     width: 100%;
     background-color: #078586;
-    padding: 5px 0px;
+    padding: 10px 0px;
     margin: 5px 0px;
     border-radius:5px ;
     outline: none;
-    border: 1px solid black;
+    border: 0;
+    /* border: 1px solid black; */
 }
-form h2{
+.form h2{
     font-size: 20px;
 }
 .both{
@@ -86,11 +89,15 @@ form h2{
 .images{
     text-align: center;
 }
+.item3 p{
+    width: 70%;
+    margin: 0 auto;
+}
 .all{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-   justify-content: center;
+    justify-content: center;
      margin:0% 30%;
     width: 90%;
     margin: 0 auto; 
@@ -170,7 +177,7 @@ form h2{
     text-align: center;
 }
 .content2 img {
-    width: 250px;
+    width: 300px;
 }
 .general h2{
     font-size: 20px;
@@ -183,12 +190,13 @@ form h2{
 }
 .hance h3{
     color: #ffffff;
-  
     text-align: center;
 }
 .hance p{
     color: #ffffff;
     text-align: center;
+    width: 70%;
+    margin: 0 auto;
 }
 .hance{
     width: 90%;
@@ -202,7 +210,7 @@ form h2{
 .general{
     display: flex;
     justify-content: space-between;
-    margin: 9% 0px;
+    margin: 7% 0px 3% 0px;
 }
 .feature{
     background-color:  #078586;
@@ -212,6 +220,9 @@ form h2{
 .enhance{
     width: 90%;
     margin: 0% auto;
+}
+.content1 h2{
+    font-size: 24px;
 }
 .content1{
     display: flex;
@@ -225,7 +236,10 @@ form h2{
 }
 .faq1{
     text-align: center;
-    margin: 50px;
+    margin: 40px 0px;
+}
+.faq1 h2{
+    font-size: 50px;
 }
 .faq1 button{
     color: #089FA0;
@@ -235,20 +249,22 @@ form h2{
     padding: 5px;
 }
 .faq2{
-    border: 1px solid black;
-    margin: 10px;
-    padding: 5px 10px;
+    margin: 15px 5px;
+    padding:  10px;
     border-radius: 5px;
+    box-shadow:-1px -1px 3px 3px #e4e3e3 ;
 }
-.faq2 a{
-    text-decoration: none;
-}
+
 .faq3{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-
+.faq4 a{
+    text-decoration: none;
+    color: black;
+    /* padding: 0px; */
+}
 
 .faqs{
     text-align: center;
@@ -300,7 +316,7 @@ form h2{
 .ham{
     display: none;
 }
-@media (max-width :760px){
+@media ((max-width :768px)){
     .down{
         display: none;
         position: absolute;
@@ -330,7 +346,9 @@ form h2{
     .item1{
         text-align: center;
     }
-   
+    .item1 p{
+        width: 100%;
+    }
     .item1 h2{
         font-size: 30px;
         width: 100%;
@@ -344,10 +362,19 @@ form h2{
     }
     .all{
         display: block;
+        margin: 0 auto;
+        width: 90%;
     }
     .one,.two,.three,.four,.five,.six{
         width: 100%;
     }
+    .item3 p{
+        width: 90%;
+    }
+    .waitlist{
+        margin: 3% 0px;
+    }
+    
     .general{
         display: grid;
          grid-template-columns: 1fr;
@@ -365,11 +392,20 @@ form h2{
     .content2{
         text-align: center;
     }
+    .enhance{
+        text-align: center;
+    }
+    .hance p{
+        width: 100%;
+    }
     .faq{
-      width: 100%;
+      width: 95%;
     }
     .faqs h2{
         font-size: 18px;
+    }
+    .faq1 h2{
+        font-size: 30px;
     }
     .faqs{
         padding: 20px 0px;
@@ -381,7 +417,7 @@ form h2{
         font-size: 14px; 
     }
    .second small:first-of-type{
-    width: 70%;
+    width: 50%;
    }
     .third{
         display: flex;
@@ -394,70 +430,4 @@ form h2{
     }
  
 }
-@media (max-width :1000px){
-    .header{
-        width: 100%;
-    }
-    .down a{
-        padding: 10px;
-    }
-    .wrap{
-        display: block;
-        padding: 50px 0px;
-    }
-    .item2{
-        width: 100%;
-    }
-    .item1{
-        text-align: center;
-    }
-    .item1 h2{
-        font-size: 30px;
-        width: 100%;
-    }
-    .item3 p{
-        width: 80%;
-        margin: 0 auto;
-    }
-    .all{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 40px;
-       justify-content: center; 
-    }
-    .one,.two,.three,.four,.five,.six{
-        width: 80%;
-    }
-    .general{
-        display: grid;
-         grid-template-columns: 1fr;
 
-    }
-    .content1{
-        display: flex;
-        flex-direction: column;
-        gap: 2em;
-        width: 100%;
-    }
-    .content2 img{
-        width: 350px;
-    }
-    .content2{
-        text-align: center;
-    }
-    .faq{
-        width: 95%;
-    }
-    .footer img{
-        width: 240px;
-    } 
-    .footer small{
-        font-size: 15px; 
-    }
-    .second{
-        align-items: center;
-    }
-    
-
-
-}

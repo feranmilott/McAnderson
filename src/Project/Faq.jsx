@@ -43,7 +43,7 @@ const Faq = () => {
           <div>
             {
               drop &&(
-                <div>
+                <div className='faq4'>
                   <p>See the most common asked questions and their answers</p>
                   <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
@@ -61,7 +61,7 @@ const Faq = () => {
           <div>
             {
               drop1 &&(
-                <div>
+                <div className='faq4'>
                   <p>See the most common asked questions and their answers</p>
                   <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
@@ -78,7 +78,7 @@ const Faq = () => {
           <div>
             {
               drop2 &&(
-                <div>
+                <div className='faq4'>
                   <p>See the most common asked questions and their answers</p>
                   <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
@@ -95,7 +95,7 @@ const Faq = () => {
           <div>
             {
               drop3 &&(
-                <div>
+                <div className='faq4'>
                   <p>See the most common asked questions and their answers</p>
                   <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
@@ -112,7 +112,7 @@ const Faq = () => {
           <div>
             {
               drop4 &&(
-                <div>
+                <div className='faq4'>
                   <p>See the most common asked questions and their answers</p>
                   <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
@@ -130,7 +130,7 @@ const Faq = () => {
           <div>
             {
               drop5 &&(
-                <div>
+                <div className='faq4'>
                   <p>See the most common asked questions and their answers</p>
                   <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                 </div>

@@ -9,7 +9,7 @@ const File = () => {
             <div className='hance'>
                 <h6>Exciting Features</h6>
                 <h3>Unlock Your Potential with Our Featured Offerings</h3>
-                <p>Don't miss out on this opportunity to be part of something extraordinary. Join our waitlist now to <br /> secure your spot and be at the forefront of the future of learning.</p>
+                <p>Don't miss out on this opportunity to be part of something extraordinary. Join our waitlist now to  secure your spot and be at the forefront of the future of learning.</p>
             </div>
             <div className='general'>
                 <div className='content1'>
